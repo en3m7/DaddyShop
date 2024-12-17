@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+* {
+    margin: 1;
+    padding: 0;
+}
+
+body {
+    background: #EB7A62;
+    background: linear-gradient(135deg, #EB7A62, #93EE3E);
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    position: absolute;
+    background-color: blanchedalmond;
+    height: 45em;
+    width: 35em;
+    border: solid;
+    border-width: 0.5em;
+    border-color: rgb(255, 200, 100);
+    border-radius: 2.5em;
+    top: 5.25em;
+    justify-content: center;
+    display: flex;
+}
+
+.text {
+    text-align: center;
+    position: absolute;
+    font-family: "Tektur";
+    font-size: 2em;
+}
+
+.pic {
+    position: absolute;
+    top: 4.5em;
+    border-radius: 2.5em;
+    border: solid;
+    border-width: 0.5em;
+    border-color: rgb(255, 125, 125);
+    width: 25em;
+    height: auto;
+}
+
+.mainT {
+    position: absolute;
+    width: 15em;
+    height: 2em;
+    justify-content: center;
+}
+
+#text1 {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 20em;
+    font-size:x-large;
+    max-width: 20em;
+}
+
+#text2 {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 35em;
+    font-size:larger;
+    max-width: 25em;
+}
+
+button:hover {
+    background-color:rgb(255, 190, 200);
+    transition: all 0.25s ease-in-out;
+}
+
+button {
+    width: 7.5em;
+    height: 2.5em;
+    position: absolute;
+    top: 35.75em;
+    background-color: rgb(255, 190, 120) ;
+    font-family: "Tektur";
+    font-size: 1.25em;
+    border-radius: 1.5em;
+}
